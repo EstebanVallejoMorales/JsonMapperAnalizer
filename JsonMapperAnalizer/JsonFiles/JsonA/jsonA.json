@@ -1,0 +1,70 @@
+{
+  "reservationId": "RSV12345",
+  "flight": {
+    "flightNumber": "AV120",
+    "airline": "Avianca",
+    "departure": {
+      "city": "Bogotá",
+      "airportCode": "BOG",
+      "dateTime": "2025-10-05T08:30:00"
+    },
+    "arrival": {
+      "city": "New York",
+      "airportCode": "JFK",
+      "dateTime": "2025-10-05T14:15:00"
+    },
+    "crew": [
+      {
+        "role": "Captain",
+        "name": "Carlos López"
+      },
+      {
+        "role": "First Officer",
+        "name": "María Pérez"
+      },
+      {
+        "role": "Flight Attendant",
+        "name": "Juan Rodríguez"
+      }
+    ]
+  },
+  "passengers": [
+    {
+      "passengerName": "Esteban Vallejo",
+      "passportNumber": "P1234567",
+      "seat": "12A",
+      "contact": {
+        "email": "esteban@email.com",
+        "phone": "+57-3001234567"
+      }
+    },
+    {
+      "passengerName": "Ana Torres",
+      "passportNumber": "P7654321",
+      "seat": "12B",
+      "contact": {
+        "email": "ana@email.com",
+        "phone": "+57-3017654321"
+      }
+    }
+  ],
+  "price": {
+    "amount": 1041.50,
+    "currency": "USD",
+    "breakdown": [
+      {
+        "concept": "Base Fare",
+        "value": 900.00
+      },
+      {
+        "concept": "Taxes",
+        "value": 120.50
+      },
+      {
+        "concept": "Service Fee",
+        "value": 21.00
+      }
+    ]
+  },
+  "status": "Confirmed"
+}

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="JsonFiles\JsonA\jsonA.json" />
+    <None Remove="JsonFiles\JsonA\PnrRetrieve_ADX.json" />
+    <None Remove="JsonFiles\JsonB\jsonB.json" />
+    <None Remove="JsonFiles\JsonB\PnrRetrieve_ATG.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="JsonFiles\JsonA\jsonA.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonFiles\JsonA\PnrRetrieve_ADX.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonFiles\JsonB\jsonB.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonFiles\JsonB\PnrRetrieve_ATG.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
